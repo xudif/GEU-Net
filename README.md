@@ -9,7 +9,7 @@ Requirements
 
 **Python Packages**: *scipy, torchvision, numpy, torch, scikit_image, matplotlib, opencv_python_headless, mmcv, pandas, Pillow, pydensecrf, skimage*
 
-To install those python packages run `pip install -r requirements.txt` or `pip install scipy, torchvision, numpy, torch, scikit_image, matplotlib, opencv_python_headless, mmcv, pandas, Pillow, pydensecrf, skimage`. I recommand using a [python virtualenv][2].
+To install those python packages run `pip install -r requirements.txt` or `pip install scipy, torchvision, numpy, torch, scikit_image, matplotlib, opencv_python_headless, mmcv, pandas, Pillow, pydensecrf, skimage`.  I recommand using a [python virtualenv][2].
 
 
 Execute
