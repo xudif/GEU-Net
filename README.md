@@ -11,7 +11,6 @@ Requirements
 
 To install those python packages run `pip install -r requirements.txt` or `pip install scipy, torchvision, numpy, torch, scikit_image, matplotlib, opencv_python_headless, mmcv, pandas, Pillow, pydensecrf, skimage`.  I recommand using a [python virtualenv][2].
 
-
 Execute
 --------
 Tips: The training dataset needs to be exported to a csv file by running [make_dataset.py](utils/make_dataset.py) first, and then changing the parser parameters in the [utils.py](utils/utils.py) file according to the path of the training dataset csv file and the path of the validation and test dataset.
