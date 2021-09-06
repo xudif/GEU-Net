@@ -15,7 +15,7 @@ Execute
 --------
 Tips: The training dataset needs to be exported to a csv file by running [make_dataset.py](utils/make_dataset.py) first, and then changing the parser parameters in the [utils.py](utils/utils.py) file according to the path of the training dataset csv file and the path of the validation and test dataset.
 
-**train**: Run `python train.py` to perform model training. Training parameters can be changed in the [utils.py](utils/utils.py). In step 2, you need to change the initial weight of resnet([download](https://pan.baidu.com/s/1k-2apRvVsVOouT5PdEOxRQ) 提取码：ghmm) and change the input channel in the source code of resnet to 2 for perceptual loss training
+**train**: Run `python train.py` to perform model training. Training parameters can be changed in the [utils.py](utils/utils.py). In step 2, you need to change the pretrained weight of resnet([download](https://pan.baidu.com/s/1k-2apRvVsVOouT5PdEOxRQ) 提取码：ghmm) and change the input channel in the source code of resnet to 2 for perceptual loss training
 
 **inferences**: Run `python inferences.py` to performs GEU-Net inference on test dataset. Inferences parameters can be changed in the [utils.py](utils/utils.py).
 
